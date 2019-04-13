@@ -1,0 +1,12 @@
+
+# Details of a user
+---
+name:
+  first: Test
+  last: User
+age: 30
+
+
+roles:
+  - User
+  - Editor

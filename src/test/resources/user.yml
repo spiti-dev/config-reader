@@ -1,0 +1,23 @@
+
+# Details of a user
+---
+name: user User
+age: user 30
+plaintextpassword: plainTextPassword
+password: ENC(zP279WLyR+2UPD8yrkTCXVJ+rixG00IW)
+
+address:
+  new: new address
+  newAddress:
+    new1: my address
+    finalAddress:
+      line1: user Address Line 1
+      line2: Address line 2
+      city: Washington D.C.
+      zip: 20000
+
+roles:
+  primary: admin
+  secondary:
+    - Useruser
+    - Editoruser
