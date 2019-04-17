@@ -1,20 +1,31 @@
 # Config Reader - Simple way to read configuration files
 
+## Contents
+
+*  [Key Features](#kf)
+*  [Environments](#env)
+*  [Limitations](#lims)
+*  [Examples](#ex)
+
+<a name="kf"></a>
 ## Key Features
 
 - Reads .properties and .yml files
 - Returns configs as a Map<String, String>
 - Merges environment and project configs
 
+<a name="env"></a>
 ## Environments
 
 - Default config file name is project (_**project.properties**_ OR _**project.yml**_)
 - Environment names can be any String value
 
+<a name="lims"></a>
 ## Limitations
 
 - Empty config files are not handled.
 
+<a name="ex"></a>
 ## Examples
 
 #### Read _YML_ files
